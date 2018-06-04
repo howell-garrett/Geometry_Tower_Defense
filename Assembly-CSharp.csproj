@@ -59,8 +59,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Enemy.cs" />
-    <Compile Include="Assets\Waypoints.cs" />
+    <Compile Include="Assets\Scripts\Enemy.cs" />
+    <Compile Include="Assets\Scripts\MoveBullet.cs" />
+    <Compile Include="Assets\Scripts\Turret.cs" />
+    <Compile Include="Assets\Scripts\WaveSpawner.cs" />
+    <Compile Include="Assets\Scripts\Waypoints.cs" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>C:/Users/Garrett/Documents/Projects/Geometry_Tower_Defense/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
