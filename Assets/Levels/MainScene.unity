@@ -5056,6 +5056,7 @@ GameObject:
   m_Component:
   - component: {fileID: 745666731}
   - component: {fileID: 745666730}
+  - component: {fileID: 745666732}
   m_Layer: 0
   m_Name: GameMaster
   m_TagString: Untagged
@@ -5091,6 +5092,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &745666732
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 745666729}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a2fbae41e45ecc41ab195bc83341c86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  standardTurretPrefab: {fileID: 1277656506961426, guid: 851586ebf28aac249a5140a65bcc6615,
+    type: 2}
 --- !u!1001 &747236780
 Prefab:
   m_ObjectHideFlags: 0
@@ -10324,13 +10338,13 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1560107884}
-  m_LocalRotation: {x: 0.4802235, y: 0, z: 0, w: 0.8771462}
-  m_LocalPosition: {x: 21.6, y: 15.9, z: 47.8}
+  m_LocalRotation: {x: 0.5127173, y: 0, z: 0, w: 0.8585575}
+  m_LocalPosition: {x: 33.63, y: 57.4, z: -4.09}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 57.4, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 61.69, y: 0, z: 0}
 --- !u!1001 &1560956284
 Prefab:
   m_ObjectHideFlags: 0

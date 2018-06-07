@@ -35,5 +35,6 @@ public class MoveBullet : MonoBehaviour {
         GameObject effect = (GameObject) Instantiate(particleEffect, transform.position, transform.rotation);
         Destroy(effect, 2f);
         Destroy(gameObject);
+        Destroy(target.gameObject);
     }
 }
